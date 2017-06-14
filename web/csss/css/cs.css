@@ -1,0 +1,152 @@
+/*li{
+    list-style: none;
+    float: left;
+    width: 80px;
+    line-height: 40px;
+    background: rgba(242, 123, 5, 0.61);
+    border-radius: 6px;
+    font-size: 16px;
+    margin-left: 3px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    height: 40px;
+
+}
+li a:hover{
+    background: rgba(242, 88, 6, 0.87);
+    border-radius: 6px;
+    /*设置a元素在鼠标移入时放大1.5倍显示*/
+   /* transform: scale(1.5);
+   -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}*/
+/*
+li{
+    list-style: none;
+    float: left;
+    width: 80px;
+    line-height: 40px;
+    background: rgba(242, 123, 5, 0.61);
+    border-radius: 6px;
+    font-size: 16px;
+    margin-left: 3px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    height: 40px;
+
+}
+li a:hover{
+    background: rgba(242, 88, 6, 0.87);
+    border-radius: 6px;
+    /*设置a元素在鼠标移入时向左下角倾斜*/
+    /*transform: skew(40deg,-20deg);
+    /*-webkit-transform: skew(40deg,-20deg);*/
+    /*-moz-transform: skew(40deg,-20deg);*/
+    /*-o-transform: skew(40deg,-20deg);*/
+   /*transform: skewY(40deg);
+    -webkit-transform: skewY(40deg);
+    -moz-transform: skewY(40deg);
+    -o-transform: skewY(40deg);
+}*/
+/*
+div {
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+img:hover {
+    /*定义动画的状态，鼠标移入旋转并放大图片*/
+ /*   transform: rotate(100deg) scale(3);
+    -webkit-transform: rotate(100deg) scale(3);
+    -moz-transform: rotate(100deg) scale(3);
+    -o-transform: rotate(100deg) scale(3);
+}*/
+
+
+/*
+ul li {
+    float: left;
+    margin: 10px;
+    list-style: none;
+}
+#box img {
+    -moz-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+#box img:hover {
+    -moz-transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.5);
+}
+*/
+
+
+div{
+    width: 10px;
+    height: 100px;
+    background: #1e27ff;
+    /*调用动画*/
+
+    animation: spread 5s linear infinite;
+    -webkit-animation: spread 5s linear infinite;
+    -moz-animation: spread 5s linear infinite;
+    -o-animation: spread 5s linear infinite;
+}
+/*创建动画关键帧*/
+@keyframes spread {
+    0%{
+        width: 0;
+        transform: translate(100px,20px);
+    }
+    25%{
+        width: 20px;
+        transform: translate(200px,30px);
+    }
+    50%{
+        width: 50px;
+        transform:translate(300px,50px);
+    }
+    75%{
+        width: 70px;
+        transform:translate(200px,70px);
+    }
+    100%{
+        width: 100px;
+        transform:translate(100px,90px);
+    }
+}
+@-webkit-keyframes spread {
+    0%{
+        width: 50px;
+        transform: translate(100px,20px);
+    }
+    25%{
+        width: 20px;
+        transform: translate(200px,30px);
+    }
+    50%{
+        width: 50px;
+        transform:translate(300px,50px);
+    }
+    75%{
+        width: 70px;
+        transform:translate(200px,70px);
+    }
+    100%{
+        width: 0px;
+        transform:translate(100px,90px);
+    }
+}

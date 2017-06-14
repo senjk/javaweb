@@ -1,0 +1,37 @@
+./*title {
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 35px;
+}
+ul li {
+    height: 30px;
+    line-height: 25px;
+    text-indent: 1em;
+    list-style: none;
+}
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}*/
+ p{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #8dff62;
+}
+a:visited{
+
+    color: rgb(54, 79, 238);
+}
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: #703dff;
+}

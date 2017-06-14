@@ -1,0 +1,189 @@
+<!-- 
+行内样式
+内部选择器
+外部选择器
+3种样式优先级
+
+标签选择器
+类选择器
+id选择器
+层次选择器
+结构伪类选择器
+属性选择器
+优先级
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link herf="css/f.css" rel="stylesheet" type="text/css"/>
+ <!--  <style>
+p{
+font-size:24px;
+color:red;}
+
+#aa{
+font-size:50px;
+color:red;}
+
+.green{
+font-size:50px;
+color:green;}
+
+h1{
+font-size:24px;
+color:black;}
+</style>
+
+ <!-- 
+ <style>
+body p{background:yellow;}
+</style>
+-->
+
+ <!--<style>
+body ul{background:yellow;}
+</style>-->
+
+<!--<style>
+body>p{background:yellow;}
+</style>
+
+  <style>
+.active+p{background:yellow;}
+</style>-->
+
+<!--<style>
+.active~p{background:yellow;}
+</style>-->
+<!-- 
+ <style>
+ul:first-child{background:blue;}
+</style>
+<style>
+p:last-child{background:red;}
+</style>-->
+<!-- <style>
+body p:nth-child(2){background:yellow;}
+</style> -->
+
+<!--  <style>
+p:first-of-type{background:yellow;}
+</style>-->
+
+<!-- 
+ <style>
+li:last-of-type{background:yellow;}
+</style>
+-->
+<!-- 
+ <style>
+li:nth-of-type(2){background:yellow;}
+</style>
+<style>
+body li:nth-of-type(2){background:yellow;}测试
+</style>
+-->
+<!--
+ <style>
+h2:nth-of-type(even){background:yellow;}
+</style>
+<style>
+h2:nth-of-type(odd){background:red;}
+</style>
+ -->
+ <!--  <style>
+li:nth-child(2){background:blue;}
+</style>-->
+<!-- 
+<style>
+p{background:red;}
+</style> 
+-->
+<style>
+#aa{
+font-size:50px;
+color:red;}
+#abc{
+font-size:50px;
+color:red;}
+.green{
+font-size:50px;
+color:green;}
+#green{
+font-size:50px;
+color:blue;}
+
+</style>
+<!--  <style>
+p[id="abc"]{background:black;}
+p[class]{background:yellow;}
+</style>
+-->
+<style>
+p[class^="gr"]{background:black;}
+p[id$="a"]{background:red;}
+p[id*="b"]{background:yellow;}
+</style>
+
+
+</head>
+<body>
+<!--  <h1 style="color:yellow;" >北京欢迎你</h1>
+<p>有梦想谁都了不起</p>
+<p class="green">有梦想谁都了不起</p>
+<h1 class="green">有勇气谁就会有奇迹</h1>
+<h1 class="green" id="aa">许多奇迹我们相信才会存在</h1>
+<!--  <h1 class="green" id="aa">许多奇迹我们相信才会存在</h1>id只可使用一次一页-->
+<!--  <p class="active">1</p>
+<p>2</p>
+<p>3</p>
+<ul>
+<li>
+<p>4</p>
+</li><li>
+<p>5</p>
+</li>
+<li>
+<p>6</p>
+</li>
+</ul>-->
+<!--  p>7</p>
+<p>8</p>-->
+<ul>
+<li>9</li>
+<li>10</li>
+<p>11</p>
+</ul>
+
+<h2>1</h2>
+<h2>2</h2>
+<h2>3</h2>
+<h2>4</h2>
+<p id="aa">7</p>
+<p class="green">8</p>
+<p id="abc">15</p>
+<p  id="green">66</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

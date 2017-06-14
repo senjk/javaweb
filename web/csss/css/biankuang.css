@@ -1,0 +1,33 @@
+
+.box{
+    width: 298px;                 /* 盒子宽度298px*/
+    border:1px solid #3a6587;    /* 设置盒子边框*/
+    margin:0px auto;
+}
+
+h2{
+    font-size:16px;
+    background-color:#3a6587;
+    height:35px;
+    line-height:35px;
+    color:#FFF;
+    margin:0px;
+}
+div{
+    margin-top: 30px;
+    margin-right: 0px;
+}
+form{
+    background: #c8ece3;}
+/*
+div div:nth-of-type(1) input{
+    border: 3px solid #ff85d1;     /* 第一个div下面的input元素设置边框3px 实线 黑色
+}
+*/
+/*
+div div:nth-of-type(2) input{
+    border: 1px dashed #2145ff;  /* 第二个div下面的input元素设置边框1px 虚线 红色
+}
+div div:nth-of-type(3) input{
+    border: 2px dotted red;   /* 第三个div下面的input元素设置边框2px 点线 红色
+}*/
